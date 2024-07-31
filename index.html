@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div id="particles-js"></div>
+        <div class="nav-container">
+            <div class="links">
+                <a href="#">Início</a>
+                <a href="#">Habilidades</a>
+                <a href="#">Portfólio</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Início</a>
+                <a href="#">Habilidades</a>
+                <a href="#">Portfólio</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+                <i class="fa-solid fa-xmark cancel" onclick="toggleMenu()"></i>
+            </div>    
+        </div>
+    </nav>
+    <section class="intro">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-right" data-aos-duration="1500">Olá, eu sou Fabiana</h1>
+                <div class="typewriter" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="200">Eu sou uma <span class="typewriter-text"></span><label>|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="400">Transforme sua presença online com um design web moderno e funcional!</p>
+                <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">Baixar CV</button>
+                <div class="social-icons" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="main.png" data-aos="fade-left" data-aos-duration="2000" alt="Imagem Principal">
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Minhas Habilidades</h2>
+            <div class="skills-list">
+                <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>HTML, CSS, JavaScript, React, Angular</p>
+                </div>
+                <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design Gráfico</h3>
+                    <p>Photoshop, Illustrator, Figma</p>
+                </div>
+                <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+                    <i class="fas fa-database"></i>
+                    <h3>Banco de Dados</h3>
+                    <p>MySQL, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
+                    <i class="fas fa-server"></i>
+                    <h3>Servidores</h3>
+                    <p>Node.js, Express.js, Nginx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Meu Portfólio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="portfolio1.png" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto 1.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <img src="portfolio2.png" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto 2.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <img src="portfolio3.png" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <img src="portfolio4.png" alt="Projeto 3">
+                    <h3>Projeto 4</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <img src="portfolio5.png" alt="Projeto 3">
+                    <h3>Projeto 5</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <img src="portfolio6.png" alt="Projeto 3">
+                    <h3>Projeto 6</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="services-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Meus Serviços</h2>
+            <div class="services-list">
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de websites modernos e responsivos para atender às suas necessidades.</p>
+                </div>
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design Gráfico</h3>
+                    <p>Design criativo para branding, logotipos e materiais promocionais.</p>
+                </div>
+                <div class="service" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+                    <i class="fas fa-database"></i>
+                    <h3>Consultoria em Banco de Dados</h3>
+                    <p>Consultoria para design e gerenciamento de bancos de dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Contato</h2>
+            <form data-aos="fade-up" data-aos-duration="1500">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Fabiana. Todos os direitos reservados.</p>
+            <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 1});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
